@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: '돋움';
+	font-size: 14px;
+	color: #444444;
+	background-image: url('img/pt4.jpg')
+}
+
+li{
+	list-style-type: none;
+}
+
+header{
+	width: 80%;
+	height: 140px;
+	margin: 0 auto;
+	border: solid 0px red;
+}
+
+#logo {
+	float: left;
+	margin: 60px 0 0 600px;
+	border: solid 0px red;
+}
+
+#menus{
+	float: right;
+	border: solid 0px red;
+	margin-top: 10px;
+}
+
+#top_menu{
+	text-align: right;
+	margin-top: 60px;
+	border: solid 0px red;
+	font-size: 18px;
+}
+
+#top_menu a{
+	color: black; 
+	text-decoration:none;
+}
+
+		.menubar {
+			border:0px red;
+			margin: 170px 0 0 0px;
+			padding: 0px;
+			font: "돋움"
+			font-weight:bold;
+		}
+
+		.menubar ul{
+			background: white;
+			width: 980px;
+			height:50px;
+			list-style:none;
+			margin:0;
+			padding:0;
+			font-size: 20px;
+		}
+
+		.menubar li{
+			float:left;
+			padding:0px;
+		}
+
+		.menubar li a{
+			background: #E0FFDB;
+			color: black;
+			display:block;
+			font-weight:normal;
+			line-height:50px;
+			margin:0px;
+			padding:0px 100px;
+			text-align:center;
+			text-decoration:none;
+		}
+
+		.menubar li a:hover, 
+		.menubar ul li:hover a{
+			background: #CEFBC9;
+			color:black;
+			text-decoration:none;
+		}
+
+		.menubar li ul{
+			background: white;
+			display:none; 
+			height:auto;
+			padding:0px;
+			margin:0px;
+			border:0px;
+			position:absolute;
+			width:240px;
+			z-index:100;
+		}
+
+		.menubar li:hover ul{
+			display:block;
+		}
+
+		.menubar li li {
+			background: white;
+			display:block;
+			float:none;
+			margin:0px;
+			padding:0px;
+			width:240px;
+		}
+
+		.menubar li:hover li a{
+			background:none;
+		}
+
+		.menubar li ul a{
+			display:block;
+			height:50px;
+			font-size:14px;
+			font-style:normal;
+			margin:0px;
+			padding:0px 10px 0px 15px;
+			text-align:center;
+		}
+
+		.menubar li ul a:hover, 
+		.menubar li ul li:hover a{
+			background: #FFB9B9;
+			border:0px;
+			color: white;
+			text-decoration:none;
+		}
+
+		.menubar p{
+			clear:left;
+		}
+
+/*
+#main_img{
+	width: 1520px;
+	height: 400px;
+	background-image: url('img/333.gif');
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: 160px 0 0 190px;
+}
+*/
+
+li{
+	list-style-type: none;
+}
+
+#contents{
+	width: 50%;
+	margin: 0 auto;
+	background-color: none;
+}
+
+#sub_menu {
+	width: 222px;
+	height: 590px;
+	float: left;
+	margin-top: 55px;
+	border: solid 0px red;
+	background-color: #E2FFFF;
+}
+
+#sub_menu h3 {
+	font-size: 18px;
+	color: #5df0c0;
+	padding: 12px;
+	background-color: #516e7f;
+}
+
+#sub_menu li{
+	padding: 10px;
+	border-bottom: dotted 0px #cccccc;
+	margin: 10px 0 10px 0;
+}
+
+#main_contents {
+	width: 80%;
+	float: right;
+	margin-top: 25px;
+	border: solid 0px red;
+}
+
+#main_contents h3{
+	font-size: 22px;
+	padding-bottom: 8px;
+	border-bottom: solid 0px #cccccc;  
+}
+
+#main_contents p{
+	margin-top: 30px;
+	line-height: 180%;
+}
+
+#main_contents #figure{
+	margin-top: 30px;
+	text-align: left;
+}
+#main_contents li{
+	padding: 5px;
+}
+
+footer{
+	width: 100%;
+	height: 170px;
+	margin-top: 450px;
+	background-color: #2c2a29;
+}
+
+#footer_box{
+	width: 1140px;
+	height: 150px;
+	margin: 0 auto;
+	border: solid 0px green;
+}
+
+#footer_logo{
+	float: left;
+	margin: 30px 0 0 10px;
+	border: solid 0px red;
+}
+
+#address{
+	float: right;
+	margin: 50px 30px 0 0;
+	color: white;
+	border: solid 0px red;
+}
+
+#daumRoughmapContainer1544001815663{
+	margin-top: 200px;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+		<div id = 'logo'> <a href="main.html"><img src="img/font.png" width="300px" height="90px"></a> </div>
+		
+<nav id="menus">
+		<div id="top_menu">
+			<a href='login.html'>로그인</a> | 
+			<a href='signup.html'>회원가입</a>
+		</div>
+</nav>
+</header>
+
+<section>
+	<center>
+			<div>
+					<div class="menubar">
+						<ul>
+							<li><a href="mcr1-1.html">소개</a>
+								<ul>
+									<li><a href="mcr1-1.html">마카롱이란?</a></li>
+									<li><a href="mcr1-2.html">만드는법</a></li>
+									<li><a href="mcr1-3.html">다른나라 언어로는?</a></li>
+								   </ul>
+							</li>
+							<li><a href="mcr2.html" id="current">역사</a>
+								<ul>
+									<li><a href="mcr2.html">마카롱의 역사</a></li>
+									<li><a href="mcr2-1.html">사진</a></li>
+								</ul>
+							</li>
+							<li><a href="mcr3.html" id="current">종류</a></li>
+							<li><a href="mcr4.html">블로그</a></li>
+						</ul>
+					</div>
+			</div>
+	</center>
+</section>
+
+<section id="main_img">
+	<center>
+		<br><br><br><br><br><br>
+		<a href="moving_mcr.html">
+			<img src="img/333.gif">
+		</a>
+	</center>
+</section>	
+
+
+
+
+
+<footer>
+	<div id="footer_box">
+		<div id="footer_logo">
+			<img src='img/macaron3.png' height="100px">
+		</div>
+		<ul id="address">
+			<li>서울특별시 마카롱구 맛있동 1234 &nbsp;&nbsp; 우:123-1234</li><br>
+			<li>TEL:031-123-1234 &nbsp;&nbsp; Email : macaron@yummy.com</li><br>
+			<li>COPYRIGHT (C) 마카롱  ALL RIGHTS RESERVED</li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>

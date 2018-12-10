@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+  
+  
+  <style>
+  
+  td, tr, input, textarea, select, form
+ {
+   font-family:고딕;
+  font-size:1em;
+  border-radius:5px;
+  
+ }
+ 
+ table, form
+ {
+  border:1px solid black;
+  padding: 50px;
+  border-spacing:15px;
+ }
+
+  #cen{
+    padding-left: 170px;
+  }
+  
+   
+  </style>
+
+
+</head>
+<body style="background-color:#5D5D5D">
+ <center>
+ <h2> 회원가입</h2>
+ <table boder = "" bgcolor = "#fffff2" cellspacing = "1" >
+ <form>
+  <tr>
+
+   <td text-align="center">아이디 </td>
+   <td> 
+   <input type = "text" />
+   <input type = "button" value = "중복확인"/>
+   </td>
+  </tr>
+
+
+
+
+  <tr>
+   <td> 비밀번호 </td>
+   <td> <input type = "password"/> </td>
+  </tr>
+
+
+  <tr>
+   <td> 이름 </td>
+   <td> <input type = "text"/> </td>
+  </tr>
+
+
+  <tr>
+   <td> 성별 </td>
+   <td> 
+    <input type = "radio" name = "gender"/ checked> 남자
+    <input type = "radio" name = "gender"/> 여자
+   </td>
+  </tr>
+
+
+  <tr>
+   <td> 이메일 </td>
+   <td>
+    <input type = "text"/> @ <input type = "text"/> &nbsp;&nbsp; 
+    <select>
+     <option> 직접입력 </option>
+     <option> naver.com </option>
+     <option> daum.net </option>
+     <option> gmail.com </option>
+    </select>
+   </td>
+  </tr>
+
+
+
+  <tr>
+   <td> 휴대폰 </td>
+   <td> 
+    <input type = "radio" name = "phone"/> SKT 
+    <input type = "radio" name = "phone"/> KT 
+    <input type = "radio" name = "phone"/> LG
+   <br/>
+    <select>
+     <option> 010 </option>
+     <option> 011 </option>
+     <option> 016 </option>
+     <option> 018 </option>
+     <option> 019 </option>
+    </select> 
+    <input type = "text" size = "6"/> - <input type = "text" size = "6"/>
+   </td>
+  </tr>
+
+
+  <tr>
+   <td> 자기소개  </td>
+   <td>
+    <textarea cols = "60" rows = "10"></textarea>
+   </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td id="cen"><a href="main.html"><input type = "button" value = "가입하기"></a>
+    </td> 
+  </tr> 
+
+ </form>
+</table>
+
+</center>
+</body>
+</html>
